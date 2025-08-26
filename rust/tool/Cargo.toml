@@ -2,11 +2,13 @@
 resolver = "2"
 
 members = [
+    "bootspec",
     "shared",
     "systemd",
 ]
 
 default-members = [
+    "bootspec",
     "shared",
     "systemd"
 ]

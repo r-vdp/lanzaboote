@@ -119,11 +119,10 @@ dependencies = [
 [[package]]
 name = "bootspec"
 version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5249951fe968ba5009e0839fceb7f3cfedc85fbf5e983fd30ad36bbcbe94e257"
 dependencies = [
  "serde",
  "serde_json",
+ "tempfile",
  "thiserror",
 ]
 
